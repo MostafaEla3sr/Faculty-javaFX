@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="507.0" style="-fx-background-color: #1A374D;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HelloController">
+   <children>
+      <Button layoutX="76.0" layoutY="62.0" mnemonicParsing="false" onAction="#insertaction" prefHeight="34.0" prefWidth="144.0" style="-fx-background-color: #A3E4DB;" text="Insert">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="268.0" layoutY="62.0" mnemonicParsing="false" onAction="#updateaction" prefHeight="38.0" prefWidth="144.0" style="-fx-background-color: #A3E4DB;" text="Updata">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="162.0" mnemonicParsing="false" onAction="#deleteaction" prefHeight="37.0" prefWidth="144.0" style="-fx-background-color: #A3E4DB;" text="Delete">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="172.0" layoutY="249.0" mnemonicParsing="false" onAction="#showdataaction" prefHeight="38.0" prefWidth="144.0" style="-fx-background-color: #A3E4DB;" text="Show data">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="162.0" mnemonicParsing="false" onAction="#entergradesaction" prefHeight="45.0" prefWidth="164.0" style="-fx-background-color: #A3E4DB;" text="Enter grades">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

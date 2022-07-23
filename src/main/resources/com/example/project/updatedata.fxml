@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="538.0" style="-fx-background-color: #1A374D;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HelloController">
+   <children>
+      <Label fx:id="idupatelab" layoutX="14.0" layoutY="25.0" text="ID" textFill="#d1d0d0" />
+      <Button fx:id="showdatabtn" layoutX="457.0" layoutY="21.0" mnemonicParsing="false" onAction="#showdatainupdateaction" style="-fx-background-color: #A3E4DB;" text="Show data" />
+      <Button fx:id="updatebtn" layoutX="457.0" layoutY="269.0" mnemonicParsing="false" onAction="#userupdateaction" style="-fx-background-color: #A3E4DB;" text="Update" visible="false" />
+      <TextField fx:id="idupdatetxt" layoutX="54.0" layoutY="21.0" style="-fx-background-color: #B1D0E0;" />
+      <Label fx:id="fnameupdatelab" layoutX="16.0" layoutY="129.0" text="First name" textFill="#d1d0d0" visible="false" />
+      <TextField fx:id="fnameupdatetxt" layoutX="97.0" layoutY="125.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="emailupdatelab" layoutX="296.0" layoutY="129.0" text="E-mail" textFill="#d1d0d0" visible="false" />
+      <TextField fx:id="emailupdatetxt" layoutX="360.0" layoutY="125.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="phoneupdatelab" layoutX="14.0" layoutY="224.0" text="Phone" textFill="#d1d0d0" visible="false" />
+      <TextField fx:id="phoneupdatetxt" layoutX="97.0" layoutY="220.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="lnameupdatelab" layoutX="16.0" layoutY="175.0" text="Last name" textFill="#d1d0d0" visible="false" />
+      <TextField fx:id="lnameupdatetxt" layoutX="97.0" layoutY="171.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="levelupdatelab" layoutX="296.0" layoutY="184.0" text="Level" textFill="#d1d0d0" visible="false" />
+      <TextField fx:id="levelupdatetxt" layoutX="360.0" layoutY="180.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+   </children>
+</Pane>

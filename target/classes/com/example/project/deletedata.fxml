@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="538.0" style="-fx-background-color: #1A374D;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HelloController">
+   <children>
+      <Label fx:id="iddeletelab" layoutX="14.0" layoutY="25.0" text="ID" textFill="#d4d3d3" />
+      <Button fx:id="deleteshowdatabtn" layoutX="457.0" layoutY="21.0" mnemonicParsing="false" onAction="#showdataindeleteaction" style="-fx-background-color: #A3E4DB;" text="Show data" />
+      <Button fx:id="deletebtn" layoutX="457.0" layoutY="269.0" mnemonicParsing="false" onAction="#userdeleteaction" style="-fx-background-color: #A3E4DB;" text="Delete" visible="false" />
+      <TextField fx:id="iddeletetxt" layoutX="54.0" layoutY="21.0" style="-fx-background-color: #B1D0E0;" />
+      <Label fx:id="fnamedeletelab" layoutX="16.0" layoutY="129.0" text="First name" textFill="#dfdfdf" visible="false" />
+      <TextField fx:id="fnamedeletetxt" layoutX="97.0" layoutY="125.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="emaildeletelab" layoutX="296.0" layoutY="129.0" text="E-mail" textFill="#dfdfdf" visible="false" />
+      <TextField fx:id="emaildeletetxt" layoutX="360.0" layoutY="125.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="phonedeletelab" layoutX="14.0" layoutY="224.0" text="Phone" textFill="#dfdfdf" visible="false" />
+      <TextField fx:id="phonedeletetxt" layoutX="97.0" layoutY="220.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="lnamedeletelab" layoutX="16.0" layoutY="175.0" text="Last name" textFill="#dfdfdf" visible="false" />
+      <TextField fx:id="lnamedeletetxt" layoutX="97.0" layoutY="171.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+      <Label fx:id="leveldeletelab" layoutX="296.0" layoutY="200.0" text="Level" textFill="#dfdfdf" visible="false" />
+      <TextField fx:id="leveldeletetxt" layoutX="360.0" layoutY="196.0" style="-fx-background-color: #B1D0E0;" visible="false" />
+   </children>
+</Pane>
